@@ -18,6 +18,7 @@
   </properties>
 
   <dependencyManagement>
+
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
@@ -26,7 +27,14 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+
+      <dependency>
+        <groupId>org.dizitart</groupId>
+        <artifactId>nitrite</artifactId>
+      </dependency>
+
     </dependencies>
+
   </dependencyManagement>
 
   <dependencies>
@@ -40,6 +48,11 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.dizitart</groupId>
+      <artifactId>nitrite</artifactId>
+      <version>4.3.2</version>
     </dependency>
   </dependencies>
 
