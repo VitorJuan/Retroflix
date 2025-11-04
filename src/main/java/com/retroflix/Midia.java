@@ -1,4 +1,4 @@
-package atividades.retroflix;
+package com.retroflix;
 
 public abstract class Midia {
 	String title;

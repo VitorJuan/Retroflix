@@ -1,4 +1,4 @@
-package atividades.retroflix;
+package com.retroflix;
 
 public class FitaVHS extends Midia {
 	

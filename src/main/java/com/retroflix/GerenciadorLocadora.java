@@ -1,4 +1,4 @@
-package atividades.retroflix;
+package com.retroflix;
 
 import java.util.ArrayList;
 
